@@ -7,7 +7,7 @@ RSpec.configure do |config|
   end
 
   config.after(:all) do
-    # @page.quit
+    @page.quit
   end
 end
 

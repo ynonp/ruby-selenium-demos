@@ -34,7 +34,7 @@ describe "Guest Home Page" do
       subreddit_link = item.find_element(:css, '.subreddit')
       href = subreddit_link.attribute('href')
 
-      expect(href).to eq("http://www.reddit.com/r/#{subreddit_link.text}/")
+      expect(href).to eq("http://www.reddit.com#{subreddit_link.text}/")
     end
   end
 
