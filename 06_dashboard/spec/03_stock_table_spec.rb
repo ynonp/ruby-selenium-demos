@@ -1,10 +1,9 @@
 require 'rspec'
+require 'spec_helper'
 
 describe 'Stock Table' do
 
   it 'should show 6 columns' do
-
-    true.should == false
   end
 
   it 'should highlight active stock' do
